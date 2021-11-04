@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    overflow: hidden;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.box {
+    background-color: aquamarine;
+    border-radius: 28px;
+    width: 80%;
+    line-height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: dodgerblue;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: darkcyan;
+}
+
+input {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+input:focus,
+select:focus {
+    outline-offset: 1;
+    outline: none;
+    border-color: dodgerblue;
+}
